@@ -6,10 +6,10 @@ int main() {
     x=a+b+c;
     y=a*b*c;
     if((x == 180)&&(y != 0)) {
-        printf("This is a triangle");
+        printf("Yes");
     }
     else {
-        printf("This is not a triangle");
+        printf("No");
     }
     return 0;
 }
