@@ -5,10 +5,10 @@ int main() {
     printf("Give your number: ");
     scanf("%d",&number);
     if(number % 2 ==0) {
-        printf("The number is evan");
+        printf("Evan");
     }
     else {
-        printf("The number is odd");
+        printf("Odd");
     }
     return 0;
 }
